@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos\Cubos">
+      <UniqueIdentifier>{a9b673b7-68bf-463f-b055-a8d43631dc1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Materials">
+      <UniqueIdentifier>{9215a8a4-1b18-4d2c-8511-a0118387a7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Lights">
+      <UniqueIdentifier>{aaa62ab8-3117-4b70-8060-ebc445c38fe0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Light.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camara.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\cubeFragment.f">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\cubeVertex.v">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\material.f">
+      <Filter>Archivos de recursos\Materials</Filter>
+    </None>
+    <None Include="src\material.v">
+      <Filter>Archivos de recursos\Materials</Filter>
+    </None>
+    <None Include="src\minicube1f.f">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\minicube1v.v">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\fragLC.f">
+      <Filter>Archivos de recursos\Materials</Filter>
+    </None>
+    <None Include="src\minicube2.f">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\minicube2.v">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\minicube3.f">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\minicube3.v">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\minicube4.f">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\minicube4.v">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\modelFrag.f">
+      <Filter>Archivos de recursos\Materials</Filter>
+    </None>
+    <None Include="src\modelVertex.v">
+      <Filter>Archivos de recursos\Materials</Filter>
+    </None>
+    <None Include="src\multilight.f">
+      <Filter>Archivos de recursos\Lights</Filter>
+    </None>
+    <None Include="src\multilight.v">
+      <Filter>Archivos de recursos\Lights</Filter>
+    </None>
+    <None Include="src\pointLight.f">
+      <Filter>Archivos de recursos\Lights</Filter>
+    </None>
+    <None Include="src\pointLight.v">
+      <Filter>Archivos de recursos\Lights</Filter>
+    </None>
+    <None Include="src\SimpleFragmentShader.fragmentshader">
+      <Filter>Archivos de recursos\Materials</Filter>
+    </None>
+    <None Include="src\SimpleVertexShader.vertexshader">
+      <Filter>Archivos de recursos\Materials</Filter>
+    </None>
+    <None Include="src\spotLight.f">
+      <Filter>Archivos de recursos\Lights</Filter>
+    </None>
+    <None Include="src\spotLight.v">
+      <Filter>Archivos de recursos\Lights</Filter>
+    </None>
+    <None Include="src\textMat.f">
+      <Filter>Archivos de recursos\Materials</Filter>
+    </None>
+    <None Include="src\textMat.v">
+      <Filter>Archivos de recursos\Materials</Filter>
+    </None>
+    <None Include="src\textureFragment.fragmentshader">
+      <Filter>Archivos de recursos\Materials</Filter>
+    </None>
+    <None Include="src\textureVertex.vertexshader">
+      <Filter>Archivos de recursos\Materials</Filter>
+    </None>
+    <None Include="src\vertexLC.v">
+      <Filter>Archivos de recursos\Materials</Filter>
+    </None>
+  </ItemGroup>
+</Project>

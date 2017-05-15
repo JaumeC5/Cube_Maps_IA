@@ -1,0 +1,105 @@
+﻿Compilación iniciada a las 16/05/2017 1:13:13.
+     1>Proyecto "C:\Users\Jaume\Documents\GitHub\Cube-Maps\Proyecto.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I.\include\soil\src /I.\include\glm /I.\include\glfw\include /I.\include\glew\include /I.\include\assimp\include /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt src\main.cpp src\Object.cpp
+         Object.cpp
+         main.cpp
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(101): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(102): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(105): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(106): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(107): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(108): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(139): warning C4244: '-=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\mesh.h(83): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(30): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(423): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(458): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(466): warning C4305: '+=': truncamiento de 'double' a 'float'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(468): warning C4305: '-=': truncamiento de 'double' a 'float'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(471): warning C4305: '-=': truncamiento de 'double' a 'float'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(473): warning C4305: '+=': truncamiento de 'double' a 'float'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(644): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(645): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(652): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(653): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(662): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(663): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(674): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(675): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(794): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+         Generando código...
+       Link:
+         D:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jaume\Documents\GitHub\Cube-Maps\x64\Debug\Practica1.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\include\assimp\lib\x86 /LIBPATH:.\include\soil\lib /LIBPATH:".\include\glfw\lib-vc2015" /LIBPATH:.\include\glew\lib\Release\Win32 opengl32.lib glew32s.lib glfw3.lib assimp.lib libSOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Jaume\Documents\GitHub\Cube-Maps\x64\Debug\Practica1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jaume\Documents\GitHub\Cube-Maps\x64\Debug\Practica1.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\Object.obj
+     1>main.obj : error LNK2019: símbolo externo glewInit sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwInit sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwTerminate sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwWindowHint sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwCreateWindow sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwWindowShouldClose sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwSetWindowShouldClose sin resolver al que se hace referencia en la función "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPEAUGLFWwindow@@HHHH@Z)
+     1>main.obj : error LNK2019: símbolo externo glfwGetFramebufferSize sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwPollEvents sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwSetInputMode sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwGetKey sin resolver al que se hace referencia en la función "public: void __cdecl Camara::DoMoviment(struct GLFWwindow *,float)" (?DoMoviment@Camara@@QEAAXPEAUGLFWwindow@@M@Z)
+     1>main.obj : error LNK2019: símbolo externo glfwSetKeyCallback sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwSetCursorPosCallback sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwSetScrollCallback sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwGetTime sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwMakeContextCurrent sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo glfwSwapBuffers sin resolver al que se hace referencia en la función main
+     1>main.obj : error LNK2019: símbolo externo SOIL_load_image sin resolver al que se hace referencia en la función "int __cdecl TextureFromFile(char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?TextureFromFile@@YAHPEBDV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>main.obj : error LNK2019: símbolo externo SOIL_free_image_data sin resolver al que se hace referencia en la función "int __cdecl TextureFromFile(char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?TextureFromFile@@YAHPEBDV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>main.obj : error LNK2019: símbolo externo "public: __cdecl Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QEAA@XZ) sin resolver al que se hace referencia en la función "private: void __cdecl Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadModel@Model@@AEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>main.obj : error LNK2019: símbolo externo "public: __cdecl Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QEAA@XZ) sin resolver al que se hace referencia en la función "private: void __cdecl Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadModel@Model@@AEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>main.obj : error LNK2019: símbolo externo "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@PEBDI@Z) sin resolver al que se hace referencia en la función "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+     1>main.obj : error LNK2019: símbolo externo "public: char const * __cdecl Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QEBAPEBDXZ) sin resolver al que se hace referencia en la función "private: void __cdecl Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadModel@Model@@AEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>main.obj : error LNK2019: símbolo externo aiGetMaterialTextureCount sin resolver al que se hace referencia en la función "public: unsigned int __cdecl aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QEBAIW4aiTextureType@@@Z)
+     1>main.obj : error LNK2019: símbolo externo aiGetMaterialTexture sin resolver al que se hace referencia en la función "public: enum aiReturn __cdecl aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z)
+     1>main.obj : error LNK2001: símbolo externo __glewActiveTexture sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewBindBuffer sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewBufferData sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewGenBuffers sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewAttachShader sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewCompileShader sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewCreateProgram sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewCreateShader sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewDeleteShader sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewEnableVertexAttribArray sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewGetProgramInfoLog sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewGetProgramiv sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewGetShaderInfoLog sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewGetShaderiv sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewGetUniformLocation sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewLinkProgram sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewShaderSource sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewUniform1f sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewUniform1i sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewUniform3f sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewUniformMatrix4fv sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewUseProgram sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewVertexAttribPointer sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewGenerateMipmap sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewBindVertexArray sin resolver
+     1>main.obj : error LNK2001: símbolo externo __glewGenVertexArrays sin resolver
+     1>main.obj : error LNK2001: símbolo externo glewExperimental sin resolver
+     1>Object.obj : error LNK2001: símbolo externo __imp___glewBindBuffer sin resolver
+     1>Object.obj : error LNK2001: símbolo externo __imp___glewBufferData sin resolver
+     1>Object.obj : error LNK2001: símbolo externo __imp___glewDeleteBuffers sin resolver
+     1>Object.obj : error LNK2001: símbolo externo __imp___glewGenBuffers sin resolver
+     1>Object.obj : error LNK2001: símbolo externo __imp___glewEnableVertexAttribArray sin resolver
+     1>Object.obj : error LNK2001: símbolo externo __imp___glewVertexAttribPointer sin resolver
+     1>Object.obj : error LNK2001: símbolo externo __imp___glewBindVertexArray sin resolver
+     1>Object.obj : error LNK2001: símbolo externo __imp___glewDeleteVertexArrays sin resolver
+     1>Object.obj : error LNK2001: símbolo externo __imp___glewGenVertexArrays sin resolver
+     1>.\include\glew\lib\Release\Win32\glew32s.lib : warning LNK4272: el tipo de máquina de biblioteca 'X86' está en conflicto con el tipo de máquina de destino 'x64'
+     1>.\include\glfw\lib-vc2015\glfw3.lib : warning LNK4272: el tipo de máquina de biblioteca 'X86' está en conflicto con el tipo de máquina de destino 'x64'
+     1>.\include\assimp\lib\x86\assimp.lib : warning LNK4272: el tipo de máquina de biblioteca 'X86' está en conflicto con el tipo de máquina de destino 'x64'
+     1>.\include\soil\lib\libSOIL.lib : warning LNK4272: el tipo de máquina de biblioteca 'X86' está en conflicto con el tipo de máquina de destino 'x64'
+     1>C:\Users\Jaume\Documents\GitHub\Cube-Maps\x64\Debug\Practica1.exe : fatal error LNK1120: 61 externos sin resolver
+     1>Compilación del proyecto terminada "C:\Users\Jaume\Documents\GitHub\Cube-Maps\Proyecto.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:02.28

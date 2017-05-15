@@ -1,0 +1,33 @@
+#version 330 core
+layout(location = 0) in vec3 position;
+layout(location = 1) in vec2 texPos;
+
+
+out vec3 newPosition;
+out vec4 vertexColor;
+uniform float Sion;
+
+
+void main(){
+  
+
+	newPosition = position;
+	gl_Position.w = 1;
+
+		if(position.y <= -0.5 && position.x <= -0.5){
+			newPosition.x -= Sion;
+			
+		}
+
+		else if(position.y <= -0.5 && position.x >= 0.5){
+			newPosition.x+= Sion;
+		}
+
+
+	
+	gl_Position = vec4(newPosition.x, newPosition.y, newPosition.z, 1.0);
+	
+
+
+}
+

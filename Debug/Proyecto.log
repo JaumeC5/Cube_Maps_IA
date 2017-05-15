@@ -1,0 +1,53 @@
+﻿Compilación iniciada a las 16/05/2017 1:13:36.
+     1>Proyecto "C:\Users\Jaume\Documents\GitHub\Cube-Maps\Proyecto.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I.\include\soil\src /I.\include\glm /I.\include\glfw\include /I.\include\glew\include /I.\include\assimp\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(101): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(102): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(105): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(106): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(107): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(108): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\camara.h(139): warning C4244: '-=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(30): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(423): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(458): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(466): warning C4305: '+=': truncamiento de 'double' a 'float'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(468): warning C4305: '-=': truncamiento de 'double' a 'float'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(471): warning C4305: '-=': truncamiento de 'double' a 'float'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(473): warning C4305: '+=': truncamiento de 'double' a 'float'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(644): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(645): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(652): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(653): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(662): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(663): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(674): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(675): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+     1>c:\users\jaume\documents\github\cube-maps\src\main.cpp(794): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+       Link:
+         D:\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jaume\Documents\GitHub\Cube-Maps\Debug\Practica1.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\include\assimp\lib\x86 /LIBPATH:.\include\soil\lib /LIBPATH:".\include\glfw\lib-vc2015" /LIBPATH:.\include\glew\lib\Release\Win32 opengl32.lib glew32s.lib glfw3.lib assimp.lib libSOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Jaume\Documents\GitHub\Cube-Maps\Debug\Practica1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jaume\Documents\GitHub\Cube-Maps\Debug\Practica1.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Object.obj
+     1>LINK : warning LNK4098: la biblioteca predeterminada'LIBCMT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+     1>LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+     1>Object.obj : warning LNK4049: se import¾ el sÝmbolo ___glewBindBuffer definido localmente
+     1>Object.obj : warning LNK4049: se import¾ el sÝmbolo ___glewBufferData definido localmente
+     1>Object.obj : warning LNK4049: se import¾ el sÝmbolo ___glewDeleteBuffers definido localmente
+     1>Object.obj : warning LNK4049: se import¾ el sÝmbolo ___glewGenBuffers definido localmente
+     1>Object.obj : warning LNK4049: se import¾ el sÝmbolo ___glewEnableVertexAttribArray definido localmente
+     1>Object.obj : warning LNK4049: se import¾ el sÝmbolo ___glewVertexAttribPointer definido localmente
+     1>Object.obj : warning LNK4049: se import¾ el sÝmbolo ___glewBindVertexArray definido localmente
+     1>Object.obj : warning LNK4049: se import¾ el sÝmbolo ___glewDeleteVertexArrays definido localmente
+     1>Object.obj : warning LNK4049: se import¾ el sÝmbolo ___glewGenVertexArrays definido localmente
+     1>glew32s.lib(glew.obj) : warning LNK4099: no se encontr¾ PDB 'vc120.pdb' con 'glew32s.lib(glew.obj)' o en 'C:\Users\Jaume\Documents\GitHub\Cube-Maps\Debug\vc120.pdb'; se vincularß el objeto sin tener en cuenta informaci¾n de depuraci¾n
+     1>libSOIL.lib(image_DXT.obj) : warning LNK4099: no se encontr¾ PDB 'SOIL.pdb' con 'libSOIL.lib(image_DXT.obj)' o en 'C:\Users\Jaume\Documents\GitHub\Cube-Maps\Debug\SOIL.pdb'; se vincularß el objeto sin tener en cuenta informaci¾n de depuraci¾n
+     1>libSOIL.lib(image_helper.obj) : warning LNK4099: no se encontr¾ PDB 'SOIL.pdb' con 'libSOIL.lib(image_helper.obj)' o en 'C:\Users\Jaume\Documents\GitHub\Cube-Maps\Debug\SOIL.pdb'; se vincularß el objeto sin tener en cuenta informaci¾n de depuraci¾n
+     1>libSOIL.lib(SOIL.obj) : warning LNK4099: no se encontr¾ PDB 'SOIL.pdb' con 'libSOIL.lib(SOIL.obj)' o en 'C:\Users\Jaume\Documents\GitHub\Cube-Maps\Debug\SOIL.pdb'; se vincularß el objeto sin tener en cuenta informaci¾n de depuraci¾n
+     1>libSOIL.lib(stb_image_aug.obj) : warning LNK4099: no se encontr¾ PDB 'SOIL.pdb' con 'libSOIL.lib(stb_image_aug.obj)' o en 'C:\Users\Jaume\Documents\GitHub\Cube-Maps\Debug\SOIL.pdb'; se vincularß el objeto sin tener en cuenta informaci¾n de depuraci¾n
+         Proyecto.vcxproj -> C:\Users\Jaume\Documents\GitHub\Cube-Maps\Debug\Practica1.exe
+     1>Compilación del proyecto terminada "C:\Users\Jaume\Documents\GitHub\Cube-Maps\Proyecto.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:31.30

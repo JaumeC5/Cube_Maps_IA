@@ -1,0 +1,18 @@
+#version 330 core
+
+// Ouput data
+
+in vec4 vertexColor;
+in vec3 position;
+in vec3 newPosition;
+out vec4 color;
+in vec2 texPos;
+
+uniform sampler2D coolTexture;
+
+void main()
+{
+
+	color = vec4(abs(newPosition.x), 1-abs(newPosition.x),newPosition.y+0.5, 1);
+	
+}
