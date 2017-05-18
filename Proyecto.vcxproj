@@ -31,6 +31,8 @@
     <ClInclude Include="src\Shader.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="src\advanced.frag" />
+    <None Include="src\advanced.vs" />
     <None Include="src\cubeFragment.f" />
     <None Include="src\cubeVertex.v" />
     <None Include="src\fragLC.f" />
@@ -52,6 +54,8 @@
     <None Include="src\pointLight.v" />
     <None Include="src\SimpleFragmentShader.fragmentshader" />
     <None Include="src\SimpleVertexShader.vertexshader" />
+    <None Include="src\skybox.frag" />
+    <None Include="src\skybox.vs" />
     <None Include="src\spotLight.f" />
     <None Include="src\spotLight.v" />
     <None Include="src\textMat.f" />

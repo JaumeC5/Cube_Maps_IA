@@ -19,7 +19,7 @@ public:
 	bool moveForward, moveBack, moveLeft, moveRight = false;
 
 	glm::vec3 camPos;
-	glm::vec3 cameraFront;
+	glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
 
 private:
 	glm::vec3 camUp;
@@ -52,7 +52,7 @@ Camara::Camara(glm::vec3 position, glm::vec3 direction, GLfloat sensitivity, GLf
 
 void Camara::DoMoviment(GLFWwindow *window, GLfloat delta)
 {
-	camSpeed = 10*delta * 3;
+	camSpeed = 3 *delta * 3;
 //	glfwSetInputMode(window, GLFW_STICKY_KEYS, 1);
 	int FORWARD = glfwGetKey(window, GLFW_KEY_W);
 	int BACKWARD = glfwGetKey(window, GLFW_KEY_S);
@@ -87,10 +87,10 @@ void Camara::DoMoviment(GLFWwindow *window, GLfloat delta)
 		moveLeft = false;
 	}
 
-	if(moveForward) camPos -= camDir*camSpeed;
-	if(moveBack) camPos += camDir*camSpeed;
-	if(moveRight)camPos += camRight*camSpeed;
-	if (moveLeft)camPos -= camRight*camSpeed;
+	if(moveForward) camPos += cameraFront*camSpeed;
+	if(moveBack) camPos -= cameraFront*camSpeed;
+	if(moveRight)camPos += normalize(cross(cameraFront, camUp))*camSpeed;
+	if (moveLeft)camPos -= normalize(cross(cameraFront, camUp))*camSpeed;
 
 }
 

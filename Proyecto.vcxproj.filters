@@ -136,5 +136,17 @@
     <None Include="src\vertexLC.v">
       <Filter>Archivos de recursos\Materials</Filter>
     </None>
+    <None Include="src\advanced.vs">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\advanced.frag">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\skybox.vs">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
+    <None Include="src\skybox.frag">
+      <Filter>Archivos de recursos\Cubos</Filter>
+    </None>
   </ItemGroup>
 </Project>
